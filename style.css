@@ -1,0 +1,62 @@
+body {
+    background-color: #243D52;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#fotopessoal {
+    border-radius: 100px;
+    
+}
+
+h1 {
+    color: white;
+    font-weight: 600;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+div {
+    display: block;
+}
+
+.container {
+    background-color: #00a9a5;
+    border-radius: 5px;
+    padding: 15px;
+    display: inline-block;
+    flex-direction: column;
+    min-width: 800px;
+    min-height: 400px;
+}
+
+.foto {
+   
+ padding: 45px;
+    align-items: left;
+    max-width: 200px;
+   
+}
+
+.description {
+    text-align: justify;
+    color: white;
+ 
+
+
+}
+
+.habilities {
+    background-color: #4e8098;
+    border-radius: 5px;
+    text-align: justify;
+    padding: 50px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+
