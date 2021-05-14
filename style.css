@@ -5,7 +5,7 @@ body {
 
 #fotopessoal {
     border-radius: 100px;
-    
+    z-index: 2;
 }
 
 h1 {
@@ -15,48 +15,32 @@ h1 {
 
 h2 {
     color: white;
+    margin: 10px 50px 10px 50px;
 }
 
 p {
     color: white;
+    margin: 10px 50px 10px 50px;
 }
-div {
-    display: block;
-}
+
 
 .container {
     background-color: #00a9a5;
     border-radius: 5px;
     padding: 15px;
-    display: inline-block;
-    flex-direction: column;
-    min-width: 800px;
-    min-height: 400px;
+
 }
 
 .foto {
-   
- padding: 45px;
-    align-items: left;
-    max-width: 200px;
-   
+    padding: 45px;
 }
 
 .description {
     text-align: justify;
     color: white;
- 
-
-
+    z-index: 1;
 }
 
-.habilities {
-    background-color: #4e8098;
-    border-radius: 5px;
-    text-align: justify;
-    padding: 50px;
-    box-sizing: border-box;
-    padding: 15px;
-}
+
 
 
