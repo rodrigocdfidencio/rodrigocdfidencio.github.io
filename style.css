@@ -10,6 +10,8 @@ body {
 
 h1 {
     font-family: 'Patua One', cursive;
+    -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-color: #000; /* cor da borda */
     color: rgb(255, 162, 2);
     font-size: 50px;
     font-weight: 600;
