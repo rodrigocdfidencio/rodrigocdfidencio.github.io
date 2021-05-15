@@ -1,38 +1,43 @@
-body {
-    background-color: #243D52;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
 }
 
-#fotopessoal {
-    border-radius: 100px;
-    z-index: 2;
+body {
+    background-color: #ebebeb;
 }
 
 h1 {
-    color: white;
+    font-family: 'Patua One', cursive;
+    color: rgb(255, 162, 2);
+    font-size: 50px;
     font-weight: 600;
+    margin-top: 70px;
+    margin-left: 400px;
 }
 
 h2 {
+    color: rgb(38, 38, 38);
+    margin-left: 400px;
+}
+
+h3 {
     color: white;
-    margin: 10px 50px 10px 50px;
+    margin-left: 400px;
 }
 
 p {
-    color: white;
+    color: rgb(26, 26, 26);
     margin: 10px 50px 10px 50px;
 }
 
-
 .container {
-    background-color: #00a9a5;
+/*     background-image: url('images/background.jpg');
+    background-repeat: no-repeat; */
+    background-color: rgb(135, 135, 135);
     border-radius: 5px;
     padding: 15px;
-
-}
-
-.foto {
-    padding: 45px;
 }
 
 .description {
@@ -41,6 +46,21 @@ p {
     z-index: 1;
 }
 
+.bg_image {
+    max-height: 500px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
 
+img {
+    float: left;
+    padding: 75px;
+    border-radius: 200px;
+}
 
-
+.habilities, .habilities.h2 {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 10px;
+}
